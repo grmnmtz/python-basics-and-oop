@@ -42,4 +42,15 @@ def default_function(z = True):
 
 default_function()
 
+# Multiplying without using * operator exercise
 
+def multiply_with_sum(num1: int, num2: int) -> int:
+    result = 0
+    if num1 == 0 or num2 == 0:
+        return 0
+    else:
+        for i in range(0, num2):
+            result += num1
+    return result
+
+multiply_with_sum(5,5)
