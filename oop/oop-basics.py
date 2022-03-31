@@ -69,6 +69,65 @@ reviewed and expaned to improve each feature and include new features in a serie
 ----------------- Objects and classes -------------------------
 
 
+Let's pretend we are doing and inventory application for a fruit
+farm. To facilitate the example, we can assume that apples go in
+barrels and oranges go in baskets.
+
+Now, we have four kinds of objects: apples, orange, baskets, and
+barrels. 
+
+In object-oriented modeling, the term used for a kind of object is class
+
+So, in technical terms, we now have four classes of objects.
+
+Class: A kind of object / A template for creating objects.
+
+Classes describe objects. They're like blueprints for creating
+objects. 
+
+Objects are instances of classes that can be associated with each other.
+
+An object instance is a specific object with its
+own set of data and behaviors
+
+Each orange is a distinct object, but all three have the attributes
+and behaviors associated with one class: the general class of oranges.
+
+The relationships between the four classes of objects in our
+inventory system cna be described using UML (Unified modeling language)
+class diagram.
+
+Orange * --- go in --- 1 Basket
+
+Apple  * --- go in --- 1 Barrel
+
+This diagram showst that a basket is associated with an orange.
+And apples are associated with a barrel.
+
+Association is the most basic way for two classes to be related.
+
+One basket can hold many (represented by *) Orange Objects.
+Anh orange can go in exactly 1 basket.
+This number is referred to as the multiplicity of the object.
+You might also hear it described as cardinality. These are slightly
+different terms.
+
+Cardinality refers to the actual number of items in the set,
+whereas multiplicity specifies how small or how large the set
+could be.
+
+Reading from left to right, many instances of the Apple class
+can go in any one Barrel. 
+
+Reading from right to left, exactly one Barrel can be associated
+with any one Apple.
+
+'''
+
+''' 
+
+-------------------- Data and behaviors ------------------------
+
 
 
 
