@@ -51,7 +51,7 @@ in a single step, we would have turned the requirements defined during object-or
 classes and interfaces that could be implemented in (ideally) any object-oriented programming language.
 
 
------------------ Object Oriented Programming ------------------
+----------------- Object Oriented Programming -----------------
 
 Object-Oriented programming (OOP) is the process of converting
 this perfectly-defined design into a working program that does exactly what the CEO originally requested.
@@ -126,9 +126,50 @@ with any one Apple.
 
 ''' 
 
--------------------- Data and behaviors ------------------------
+-------------------- Data and behaviors -----------------------
+
+Data describes objects
+
+Data represents the individual characteristics of a certain object.
+
+A class can define specific sets of characters that are shared by all objects from that class.
+
+Any specific object can have different data values for the 
+given characteristics. Attributes don't have to be unique.
+
+Attributes are frequently referred to as members or properties.
+
+Orange
+    -Weigth
+    -Orchard
+    -Date_picked
+
+Apple
+    -Color
+    -Weight
+
+Basket
+    -Location
+
+Barrel
+    -Size
+
+Adding attributes and methods to individual objects allows us to create a system of interacting objects. 
+
+Each object in the system is a member of a certain class. 
+
+These classes specify what types of data the object can hold and what methods can be invoked on it. 
+
+The data in each object can be in a different state from other instances of the same class; each object may react to method calls differently because of the differences in state.
+
+Object-oriented analysis and design is all about figuring out what those objects are and how they should interact. 
+
+'''
 
 
+'''
+
+-------------- Interfaces and hiding details -----------------
 
 
 
