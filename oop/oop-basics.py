@@ -229,10 +229,56 @@ Attributes may show up as adjectives or more nouns. Name your classes, attribute
 
 '''
 
---------------------------------- Composition ---------------------------------
+--------------------------------- Composition and Agreggation ---------------------------------
+
+Composition is the act of collecting several objects together to create a new one.
+
+Composition is usually a good choice when one object is part of another object.
+
+The objects in an object-oriented system occasionally represent physical objects such as
+people, books, or telephones. 
+
+More often, however, they represent abstract ideas. People have names, books have titles, 
+and telephones are used to make calls. 
+
+Calls, titles, accounts, names, appointments, and payments are not usually considered 
+objects in the physical world, but they are all frequently-modeled components in computer systems.
 
 
+Aggregation is almost exactly like composition. 
+
+The difference is that aggregate objects can exist independently. 
+
+It would be impossible for a position to be associated with a different
+chess board, so we say the board is composed of positions. 
+
+But the pieces, which might exist independently of the chess set, 
+are said to be in an aggregate relationship with that set.
+
+Another way to differentiate between aggregation and composition is to think about the
+lifespan of the object. If the composite (outside) object controls when the related (inside)
+objects are created and destroyed, composition is most suitable. If the related object is
+created independently of the composite object, or can outlast that object, an aggregate
+relationship makes more sense. 
+
+Also, keep in mind that composition is aggregation;
+aggregation is simply a more general form of composition. Any composite relationship is
+also an aggregate relationship, but not vice versa.
+
+'''
 
 
+'''
+
+----------------------------- Inheritance -------------------------------------
+
+We discussed three types of relationships between objects: association, composition, and
+aggregation.
+
+Inheritance is the most famous, well-known, and over-used relationship in object-oriented programming. 
+
+Inheritance is sort of like a family tree. 
+
+In object-oriented programming, one class can inherit attributes and methods from another class.
 
 '''
