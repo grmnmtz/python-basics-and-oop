@@ -160,7 +160,8 @@ Each object in the system is a member of a certain class.
 
 These classes specify what types of data the object can hold and what methods can be invoked on it. 
 
-The data in each object can be in a different state from other instances of the same class; each object may react to method calls differently because of the differences in state.
+The data in each object can be in a different state from other instances of the same class; each object may 
+react to method calls differently because of the differences in state.
 
 Object-oriented analysis and design is all about figuring out what those objects are and how they should interact. 
 
@@ -170,6 +171,67 @@ Object-oriented analysis and design is all about figuring out what those objects
 '''
 
 -------------- Interfaces and hiding details -----------------
+
+The key purpose of modeling an object in object-oriented design is to determine what 
+the public interface of that object will be. 
+
+The interface is the collection of attributes and
+methods that other objects can access to interact with that object. 
+
+They do not need, and are often not allowed, to access the internal workings of the object.
+
+This process of hiding the implementation of an object is suitably called information hiding (encapsulation). 
+
+It is also sometimes referred to as encapsulation, but encapsulation is actually a more all-encompassing term
+
+Encapsulated data is not necessarily hidden.
+
+The public interface, however, is very important. It needs to be carefully designed as it is
+difficult to change it in the future. Changing the interface will break any client objects that
+are accessing it.
+
+When designing public interfaces, keep it simple. Always design the interface of an object based
+on how easy it is to use, not how hard it is to code (this advice applies to user interfaces as
+well).
+
+Remember, program objects may represent real objects, but that does not make them real
+objects. They are models. 
+
+The model is an abstraction of a real concept
+
+'''
+
+'''
+
+---------------------------- Abstraction -----------------------------------
+
+
+Abstraction is another object-oriented term related to encapsulation and information
+hiding. 
+
+Abstraction means dealing with the level of detail that is most appropriate to a
+given task. It is the process of extracting a public interface from the inner details.
+
+Abstraction is the process of encapsulating information with separate public and private interfaces. 
+
+The private interfaces can be subject to information hiding.
+
+Make your models understandable to other objects that have to interact with them. 
+
+This means paying careful attention to small details. Ensure methods and properties have sensible names. 
+
+When analyzing a system, objects typically represent nouns in the original problem, while
+methods are normally verbs. 
+
+Attributes may show up as adjectives or more nouns. Name your classes, attributes, and methods accordingly.
+
+'''
+
+'''
+
+--------------------------------- Composition ---------------------------------
+
+
 
 
 
