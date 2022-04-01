@@ -1,1 +1,1 @@
-Repository with some basics of python and Object Oriented Programming with Python.
+Repository with some basics of Python, including Object Oriented Programming concepts and implementations.
